@@ -1,0 +1,41 @@
+html{
+    background-color: gainsboro;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+body {
+     width: 700px;
+     height: 500px;
+     margin: 0 auto;
+     background-color: rgb(228, 123, 47);
+     padding:  5px 20px 20px 20px;
+     border: 2px solid black;  
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    
+}
+h1{
+    margin: 2px;
+    color: ghostwhite;
+    border: 2px solid black;
+    text-shadow: 2px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 2px;
+    width: fit-content;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+li{
+    font-family:'Courier New', Courier, monospace;
+}
