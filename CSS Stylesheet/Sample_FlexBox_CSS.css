@@ -1,0 +1,50 @@
+/* . is used to when we are defining css class  IF we use ID in HTML page then we define it as #ID{} in css stylesheet*/
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background-color: tomato;
+    font-weight: bold;
+    padding: 20px;  /* id padding has only one value then all padding value will be that single value only ie. T R B L =20px*/
+}
+
+.footerContainer{
+    display: flex;
+    flex-flow: column wrap ;
+    align-content: center;
+    background-color: lightgreen;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainContentItem{
+    text-align: left;
+    background: deepskyblue;
+}
+
+article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+
+.sideBarLeftItem{
+    background-color: gold;
+}
+
+.sideBarRightItem{
+    background-color: hotpink;
+}
+
+.sideBarItem{ flex: 1 0 0 ; border: 0px solid green;}
+.mainContentItem{ flex: 3 0px; }
+.sideBarLeftItem{ order: 1; } 
+.mainContentItem{ order: 2; }
+.sideBarRightItem{ order: 3; }
